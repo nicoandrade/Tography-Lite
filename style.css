@@ -2,7 +2,7 @@
 Theme Name: Tography Lite
 Theme URI: http://themes.quemalabs.com/tography-lite/
 Description: A beautiful and minimalistic photography WordPress theme. The perfect choice for photographers who want a simple and attractive site. If you want more features you should check the full version in http://bit.ly/tography
-Version: 1.0.2
+Version: 1.0.3
 Author: Quema Labs
 Author URI: http://www.quemalabs.com/
 License: GNU General Public License v2 or later
@@ -987,8 +987,6 @@ About
 /*Comments																	 */
 /*===========================================================================*/
 #comments {
-  padding: 60px;
-  background-color: #fff;
   margin-bottom: 70px;
 }
 #comments h3 {

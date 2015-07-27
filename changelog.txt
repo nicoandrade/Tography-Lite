@@ -1,3 +1,9 @@
+* 1.0.3 - 27/07/2015
+====================
+- Fixed: Post tags
+- Fixed: Comments styles
+
+
 * 1.0.2 - 27/07/2015
 ====================
 - Updated Screenshot

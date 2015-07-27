@@ -15,7 +15,7 @@
         ?>
         <li class="meta_category"><i class="fa fa-folder-open-o"></i> <?php the_category(', ') ?></li>
         <?php if( get_the_tags() && !is_home() ){ ?>
-            <li class="meta_tags"><i class="fa fa-tag"></i> <?php the_tags('', '', ''); ?></li>
+            <li class="meta_tags"><i class="fa fa-tag"></i> <?php the_tags('', ', ', ''); ?></li>
         <?php } ?>
     </ul>
     <div class="clearfix"></div>
