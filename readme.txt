@@ -1,16 +1,9 @@
 === Tography Lite ===
 
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-
-== Description ==
-
 A beautiful and minimalistic photography WordPress theme. The perfect choice for photographers who want a simple and attractive site. If you want more features you should check the full version in http://bit.ly/tography
 
-* Responsive Layout
-* Social Links
-* The GPL v2.0 or later license. :) Use it to make something cool.
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 == Installation ==
