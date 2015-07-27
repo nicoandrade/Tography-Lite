@@ -1,0 +1,586 @@
+html{font-size: 1em; overflow-x: hidden; height: 100%;}
+html.menu_open body{
+	padding-left: 275px;
+}
+body{background-color: @backgroundColor; .transition( padding 250ms ease-in); height: 100%;}
+
+#wrap{
+	position: relative;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+.box_b{
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .35);
+	-moz-box-shadow:  0 1px 2px rgba(0, 0, 0, .35);
+	-webkit-box-shadow:  0 1px 2px rgba(0, 0, 0, .35);
+	/*padding: 5px;*/
+	margin-bottom: 0.6em;
+	border: 4px solid #fff!important;
+}
+
+.cool_divider{
+	background: url(images/line_divider.png) bottom repeat-x;
+  	padding-bottom: 3px;
+  	border: none;
+  	margin: 2em 0;
+}
+
+
+.in_shadow{
+	@bShadow: 0px 0px 3px rgba(0,0,0,.3) inset;
+	.box-shadow(@bShadow);
+}
+
+
+.preloader { 
+	background:@backgroundColor; 
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: block;
+	z-index: 30;
+	top: 0;
+	left: 0;
+	.transition( all 900ms ease-in-out);
+	text-align: center;
+	color: @gray-light2!important;
+}
+.preloader i { 
+	font-size: 28px;
+	position: absolute;
+	left: 50%;
+	top: 300px;
+}
+
+
+
+
+
+/* Custom button
+-------------------------------------------------- */
+
+/* Override base .btn styles */
+/* Apply text and background changes to three key states: default, hover, and active (click). */
+.btn-ql,
+.btn-ql:hover,
+.btn-ql:active {
+	background-color: transparent;
+	border: 2px solid transparent;
+	color: @gray-light;
+	border-radius: border-radius-base;
+	font-size: 0.85714285714286em;
+  	font-weight: bold;
+  	.transition(~"translate 100ms ease-in-out, opacity 200ms ease-in-out");
+  	.transition( all 200ms);
+  	position: relative;
+  	overflow: hidden;
+	outline: none;
+}
+.btn-ql:hover {
+	border: 2px solid @gray-lighter;
+}
+
+/* Apply the custom-colored gradients */
+/* Note: you'll need to include all the appropriate gradients for various browsers and standards. */
+.btn-ql > i {
+	font-size: 1.16666666666667em;
+	position: absolute;
+	left: 44%;
+	top: -2em;
+	.animation(btn_in 300ms ease-in-out)
+}
+.btn-ql > span {
+  .transition( all 100ms ease-in-out);
+}
+
+
+/*For special occacions */
+.btn-ql > b.ql_sec_icon {
+	font-size: 1.16666666666667em;
+	font-weight: normal;
+	position: absolute;
+	left: 43%;
+	top: 0.57142857142857em;
+	.transition( all 200ms ease-in-out);
+	.opacity(0);
+}
+
+.btn-ql.ql_show_sec > b.ql_sec_icon {
+	.opacity(1);
+}
+.btn-ql.ql_show_sec > span, .btn-ql.ql_show_sec > i{
+  .opacity(0);
+}
+
+/* Set the hover state */
+/* An easy hover state is just to move the gradient up a small amount. Add other embellishments as you see fit. */
+.btn-ql:hover > span {
+  .opacity(0);
+}
+.btn-ql:hover > i {
+	top: 0.5625em;
+
+	.animation(btn_out 300ms ease-in-out)
+}
+
+/*
+Show the icon
+*/
+@-webkit-keyframes btn_out {
+  0%   { top: -2em; }
+  100% { top: 0.71428571428571em; }
+}
+@-moz-keyframes btn_out {
+  0%   { top: -2em; }
+  100% { top: 0.71428571428571em; }
+}
+@-o-keyframes btn_out {
+  0%   { top: -2em; }
+  100% { top: 0.71428571428571em; }
+}
+@keyframes btn_out {
+  0%   { top: -2em; }
+  100% { top: 0.71428571428571em; }
+}
+
+/*
+Hide the icon
+*/
+@-webkit-keyframes btn_in {
+  0%   { top: 0.71428571428571em; }
+  100% { top: 4em; }
+}
+@-moz-keyframes btn_in {
+  0%   { top: 0.71428571428571em; }
+  100% { top: 4em; }
+}
+@-o-keyframes btn_in {
+  0%   { top: 0.71428571428571em; }
+  100% { top: 4em; }
+}
+@keyframes btn_in {
+  0%   { top: 0.71428571428571em; }
+  100% { top: 4em; }
+}
+
+
+.btn-ql:active {
+	.translate(0; 1px );
+	.box-shadow(none);
+}
+
+
+
+
+
+/* Custom button
+-------------------------------------------------- */
+
+/* Override base .btn styles */
+/* Apply text and background changes to three key states: default, hover, and active (click). */
+.btn-ql2,
+.btn-ql2:hover,
+.btn-ql2:active {
+	background-color: transparent;
+	border: 2px solid @gray-lighter;
+	color: @gray-light;
+	border-radius: border-radius-base;
+	.font-size(14);
+  	font-weight: bold;
+  	.transition(~"translate 100ms ease-in-out, opacity 200ms ease-in-out");
+  	.transition( all 200ms);
+  	position: relative;
+  	overflow: hidden;
+	outline: none;
+}
+.btn-ql2:hover {
+	border: 2px solid @heroColor;
+	background-color: @heroColor;
+	color: @contrastColor;
+}
+
+/* Apply the custom-colored gradients */
+/* Note: you'll need to include all the appropriate gradients for various browsers and standards. */
+.btn-ql2 > i {
+	margin-left: 4px;
+}
+
+
+
+
+
+
+
+/*Call To Action Button													*/
+/*----------------------------------------------------------------------*/
+.btn-cta{
+	background-color: @heroColor!important;
+	background-image: none;
+	color: @white;
+	.in_shadow();
+	border:none;
+	border-radius: 2px;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+	font-weight: bold;
+}
+.btn-cta:hover{
+	color: @white;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+	.opacity(90);
+
+}
+
+
+
+
+.transition-duration(@transition-duration) {
+  -webkit-animation-duration: @transition-duration;
+     -moz-animation-duration: @transition-duration;
+       -o-animation-duration: @transition-duration;
+          animation-duration: @transition-duration;
+}
+
+
+
+
+/*Before & After														*/
+/*----------------------------------------------------------------------*/
+.ql_beforeafter img{
+	max-width: none!important;
+}
+
+/* Section Title														*/
+/*----------------------------------------------------------------------*/
+.ql_title{
+	border-bottom: 1px solid @gray-light;
+	position: relative;
+	padding-bottom: 5px;
+}
+.ql_title:before{
+	content: " ";
+	position: absolute;
+	bottom: -2px;
+	background-color: @heroColor;
+	height: 3px;
+	width: 50px;
+	display: block;
+	left: 0;
+}
+
+
+/* Section Title														*/
+/*----------------------------------------------------------------------*/
+.ql_line{
+	border-bottom: 1px solid @gray-lighter;
+	border-top: none;
+	position: relative;
+	margin: 20px 0;
+	margin: 1.42857142857143rem 0;
+	width: 6.15384615384615em;
+	height: 1px;
+	display: block;
+	clear: both;
+}
+
+.ql_line_wrap{
+	position: relative;
+	height: 3px;
+	display: block;
+	margin: 30px 0 0 0;
+	margin: 2.14285714285714rem 0 0 0;
+
+}
+.ql_line_full{
+	border-bottom: 1px solid @gray-lighter;
+	border-top: none;
+	position: absolute;
+	left: -15px;
+	right: -15px;
+	bottom: 0;
+	margin: 0;
+	height: 1px;
+	display: block;
+	clear: both;
+}
+
+.section_title{
+	margin-bottom: 1.53846153846154em;
+}
+
+/* Scroll to Top Button													*/
+/*----------------------------------------------------------------------*/
+.ql_scroll_top i{
+	margin-left: 10px;
+}
+
+
+
+
+
+
+/*Hero Colors Classes													*/
+/*----------------------------------------------------------------------*/
+.hero_bck{
+	background-color: @heroColor;
+}
+
+.hero_border{
+	border-color: @heroColor;
+}
+
+.hero_color{
+	color: @heroColor;
+}
+
+.hero_bck2{
+	background-color: @heroColor2;
+}
+
+.hero_border2{
+	border-color: @heroColor2;
+}
+
+.hero_color2{
+	color: @heroColor2;
+}
+.contrast_bck{
+	background-color: @contrastColor;
+}
+
+
+
+
+
+
+
+/* Hover effect for thumbnails											*/
+/*----------------------------------------------------------------------*/
+.ql_thumbnail_hover{
+	position: relative;
+	display: block;
+	text-align: center;
+}
+.ql_thumbnail_hover > span{
+	display: block;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+	z-index: 5;
+	background-color: rgba(255,255,255,0.7);
+	position: absolute;
+	.transition( all 200ms linear);
+	.opacity(0);
+	border-radius: @border-radius-small;
+}
+.ql_thumbnail_hover:hover > span{
+	.opacity(100);
+}
+.ql_thumbnail_hover > span > i{
+	.transition( all 200ms ease-in-out);
+	color: @gray;
+	font-size: 3em;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	margin-top: -1.5em;
+	margin-left: -1.5em;
+	line-height: 3em;
+	width: 3em;
+	height: 3em;
+	.opacity(0);
+	.scale(0);
+	display: block;
+}
+.ql_thumbnail_hover:hover > span > i{
+	.opacity(100);
+	.scale(1);
+}
+
+
+/* Scrollbars webkit													*/
+/*----------------------------------------------------------------------*/
+.hr-small{
+	border-top: 1px solid @gray-lighter;
+	height: 1px;
+	margin: 0.625em auto;
+	width: 100px;
+	display: block;
+	.clearfix();
+}
+.nav_sidebar .hr-small{
+	border-color: @gray-light;
+	margin: 1.875em auto;
+}
+.ql_single-portfolio_content .hr-small{
+	margin: 0.9375em 0;
+	display: inline-block;
+	border-top: 3px solid @heroColor;
+
+}
+
+/* Font size using REMs													*/
+/*----------------------------------------------------------------------*/
+.font-size(@size: 14){
+	font-size: unit(@size, px);
+	font-size: unit(@size / @font-size-base, rem); //Bootstrap variable
+}
+
+
+.ql_brand{
+	display: inline-block;
+	color: @gray-light2;
+	a{
+		color: @gray-light2;
+	}
+}
+
+
+
+/* Background Check														*/
+/*----------------------------------------------------------------------*/
+.background--light {
+  color: black!important;
+  border-color: black!important;
+}
+.background--dark {
+  color: white!important;
+  border-color: white!important;
+}
+.background--complex {
+  color: gray!important;
+  border-color: gray!important;
+}
+
+
+.navbar-toggle.background--light .icon-bar, .background--light .marka i {
+  background-color: black!important;
+}
+.navbar-toggle.background--dark .icon-bar, .background--dark .marka i{
+  background-color: white!important;
+}
+
+.navbar-toggle.background--complex .icon-bar, .background--complex .marka i{
+  background-color: gray!important;
+}
+
+
+
+
+
+
+
+/* columns of same height styles */
+.container-xs-height {
+    display:table;
+    padding-left:0px;
+    padding-right:0px;
+}
+.row-xs-height {
+    display:table-row;
+}
+.col-xs-height {
+    display:table-cell;
+    float:none;
+}
+@media (min-width: 768px) {
+    .container-sm-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-sm-height {
+        display:table-row;
+    }
+    .col-sm-height {
+        display:table-cell;
+        float:none;
+    }
+}
+@media (min-width: 992px) {
+    .container-md-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-md-height {
+        display:table-row;
+    }
+    .col-md-height {
+        display:table-cell;
+        float:none;
+    }
+}
+@media (min-width: 1200px) {
+    .container-lg-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-lg-height {
+        display:table-row;
+    }
+    .col-lg-height {
+        display:table-cell;
+        float:none;
+    }
+}
+
+
+
+
+/* Inputs																*/
+/*----------------------------------------------------------------------*/
+input, textarea{
+	display: block;
+  width: 100%;
+  height: @input-height-base; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
+  padding: @padding-base-vertical @padding-base-horizontal;
+  font-size: @font-size-base;
+  line-height: @line-height-base;
+  color: @input-color;
+  vertical-align: middle;
+  background-color: @input-bg;
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+  border: 2px solid @input-border;
+  border-radius: @input-border-radius;
+  margin-bottom: 0.71428571428571em;
+
+
+  // Customize the `:focus` state to imitate native WebKit styles.
+  .form-control-focus();
+
+  // Placeholder
+  //
+  // Placeholder text gets special styles because when browsers invalidate entire
+  // lines if it doesn't understand a selector/
+  .placeholder();
+
+  // Disabled and read-only inputs
+  // Note: HTML5 says that controls under a fieldset > legend:first-child won't
+  // be disabled if the fieldset is disabled. Due to implementation difficulty,
+  // we don't honor that edge case; we style them as disabled anyway.
+  &[disabled],
+  &[readonly],
+  fieldset[disabled] & {
+    cursor: not-allowed;
+    background-color: @input-bg-disabled;
+  }
+
+  // Reset height for `textarea`s
+  textarea& {
+    height: auto;
+  }
+}
+textarea{
+	min-height: 100px;
+}
+
+

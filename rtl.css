@@ -1,0 +1,1431 @@
+/*
+Theme Name: Tography Lite
+Theme URI: http://themes.quemalabs.com/tography-lite/
+Description: A beautiful and minimalistic photography WordPress theme. The perfect choice for photographers who want a simple and attractive site. If you want more features you should check the full version in http://bit.ly/tography
+Version: 1.0.2
+Author: Quema Labs
+Author URI: http://www.quemalabs.com/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: featured-images, responsive-layout, two-columns, threaded-comments, custom-menu, light, right-sidebar, sticky-post, translation-ready
+Text Domain: tography_lite
+*/
+/*
+----------------------------------------------------------------
+TABLE OF CONTENTS
+----------------------------------------------------------------
+1. Header
+2. Blog & Pages
+3. Comments
+4. Sidebar
+5. Footer
+6. Portfolio
+7. Pace
+8. WordPress Default
+9. External Plugins
+10. Global Styles
+11. Responsive Styles
+LESS Variables and Mixins
+----------------------------------------------------------------
+*/
+/*
+==========================================
+1. Header
+========================================== 
+*/
+
+/*-----------------------------*/
+/*
+Nav Button
+---------------------------------------*/
+.ql_nav_btn {
+	right: 20px;
+	left: auto;
+}
+
+.ql_nav_btn i {
+	right: 0;
+	left: 0;
+}
+
+/*
+Nav Sidebar
+---------------------------------------*/
+.nav_sidebar {
+	right: -19.6875em;
+	left: auto;
+}
+
+.nav_sidebar.open {
+	right: 0;
+	left: auto;
+}
+
+.nav_sidebar #jqueryslidemenu ul.nav {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.nav_sidebar #jqueryslidemenu ul.nav > li {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+/* Close button */
+.ql_nav_close {
+	left: -2.22222222em;
+	right: auto;
+}
+
+/*
+Sub Nav Sidebar
+---------------------------------------*/
+.sub_nav_header {
+	text-align: right;
+}
+
+.sub_nav_header .widget_text ul,
+.sub_nav_header .widget_text ul ul {
+	text-align: right;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.sub_nav_header .widget_text ul li i {
+	margin-left: 8px;
+	margin-right: auto;
+}
+
+/*
+Nav Menu
+---------------------------------------*/
+
+#jqueryslidemenu ul.nav {
+	margin-left: 30px;
+	margin-left: 2.14285714285714rem;
+	margin-right: auto;
+}
+
+/*Top level list items*/
+#jqueryslidemenu ul.nav > li {
+	margin-right: 0.625em;
+	margin-left: auto;
+}
+
+/*Top level menu link items style*/
+#jqueryslidemenu ul.nav > li > a {
+	padding-right: 1.875rem;
+	padding-left: 1.875rem;
+}
+
+/* Active item ----------*/
+
+/*1st sub level menu*/
+#jqueryslidemenu ul.nav > li > ul {
+	right: 0;
+	margin-right: 30px;
+	left: auto;
+	margin-left: auto;
+}
+
+/* Multi level dropdown -------*/
+
+.dropdown-submenu > .dropdown-menu {
+	right: 0;
+	margin-right: -1px;
+	left: auto;
+	margin-left: auto;
+}
+
+.dropdown-submenu > a:after {
+	float: left;
+	margin-left: -10px;
+	margin-right: auto;
+}
+
+.dropdown-submenu.pull-right > .dropdown-menu {
+	right: -100%;
+	margin-right: 10px;
+	left: auto;
+	margin-left: auto;
+}
+
+/* Mobile Nav icon (Hamburguer) -----------*/
+
+/* Dropdown arrow ------------*/
+.navbar .dropdown-toggle b {
+	margin-right: 3px;
+	margin-left: auto;
+}
+
+/* Select Navigation */
+
+/*
+End Nav Menu
+---------------------------------------*/
+/*
+Search
+---------------------------------------*/
+.ql_search_btn {
+	float: left;
+}
+
+.ql_search_btn:hover .input-search {
+	padding-left: 50px;
+	padding-right: 0;
+}
+
+.ql_search_btn i {
+	left: 19px;
+	right: auto;
+}
+
+.ql_search_btn #searchsubmit {
+	left: 0;
+	right: auto;
+}
+
+/*
+=================================================================
+Sidebar Nav Widgets
+=================================================================
+*/
+
+/*
+=================================================================
+WPML
+=================================================================
+*/
+#lang_sel {
+	left: 0;
+	right: auto;
+}
+
+/*
+==========================================
+2. Blog & Pages
+========================================== 
+*/
+/*Container									*/
+/*------------------------------------------*/
+
+/*Breadcrumbs								*/
+/*------------------------------------------*/
+#breadcrumbs {
+	left: 0;
+	text-align: right;
+	right: auto;
+}
+
+/*Page Title 								*/
+/*------------------------------------------*/
+
+.page_title {
+	padding-left: 50px;
+	padding-right: 0;
+}
+
+.page_title i {
+	margin-left: 10px;
+	left: 0;
+	right: auto;
+	margin-right: auto;
+}
+
+/*Post Title 								*/
+/*------------------------------------------*/
+
+.post_title a {
+	text-align: right;
+}
+
+/*Post										*/
+/*------------------------------------------*/
+
+/*Image Post								*/
+/*------------------------------------------*/
+
+/*Metadata 									*/
+/*------------------------------------------*/
+.metadata {
+	border-left: none;
+	border-right: none;
+}
+
+.metadata ul li {
+	margin: 0 0 10px 15px;
+	float: right;
+}
+
+.metadata ul li i {
+	margin-left: 0.35714285714286em;
+	margin-right: auto;
+}
+
+/* Meta Blocks (Date and omments)			*/
+/*------------------------------------------*/
+
+.meta_date {
+	right: 0;
+	left: auto;
+}
+
+.meta_comments {
+	left: 0;
+	right: auto;
+}
+
+/*Pagination															*/
+/*----------------------------------------------------------------------*/
+
+.pagination a,
+.pagination span {
+	float: right;
+	margin-right: -2px;
+	margin-left: auto;
+}
+
+/*Fancy Tags for posts													*/
+/*----------------------------------------------------------------------*/
+ul.fancy_tags {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+ul.fancy_tags li {
+	margin: 0 0 0.90909090909091em 0.90909090909091em;
+	float: right;
+}
+
+/* Tags 																*/
+/*----------------------------------------------------------------------*/
+
+.tags a {
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+/*Edit Button															*/
+/*----------------------------------------------------------------------*/
+
+/*
+==========================================
+Post Quote
+========================================== 
+*/
+
+/*
+==========================================
+Post Image
+========================================== 
+*/
+
+/*
+==========================================
+About
+========================================== 
+*/
+
+.author-image_wrap {
+	right: 0;
+	left: 0;
+}
+
+.author-meta {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.author-meta li {
+	margin-left: 1.42857142857143em;
+	margin-right: auto;
+}
+
+.author-meta li i {
+	margin-left: 0.71428571428571em;
+	margin-right: auto;
+}
+
+/*
+==========================================
+3. Comments
+========================================== 
+*/
+/*===========================================================================*/
+/*Comments																	 */
+/*===========================================================================*/
+
+.commentlist {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.ie8 ol.commentlist li .comment-entry,
+.ie7 ol.commentlist li .comment-entry {
+	float: left;
+}
+
+ol.commentlist .comment-entry span.arrow_comment {
+	right: -22px;
+	left: auto;
+}
+
+.comment-meta {
+	float: right;
+	margin-right: 10px;
+	margin-left: auto;
+}
+
+.reply {
+	float: left;
+	clear: left;
+}
+
+#comments ul.children {
+	margin-right: 30px;
+	margin-left: auto;
+}
+
+/*===========================================================================*/
+/*Comments	Form															 */
+/*===========================================================================*/
+
+#respond .input-wrap {
+	margin: 0px 0 10px 15px;
+	float: right;
+}
+
+#respond input {
+	padding-right: 2.30769230769231em;
+	padding-left: 0;
+}
+
+#respond .controls-wrap i {
+	right: 0.71428571428571em;
+	left: auto;
+}
+
+#respond #submit-respond {
+	padding-right: 12px;
+	padding-left: 0;
+}
+
+/*
+==========================================
+4. Sidebar
+========================================== 
+*/
+
+/*
+Widgets
+--------------------------------
+*/
+#sidebar .widget {
+	margin-right: 10px;
+	margin-left: auto;
+}
+
+#sidebar.col-md-pull-9 .widget {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+#sidebar .widget ul,
+#sidebar .widget ol {
+	margin-right: 0px;
+	padding-right: 0;
+	padding-left: 0;
+	margin-left: auto;
+}
+
+#sidebar .widget ul li ul {
+	margin-right: 30px;
+	margin-left: auto;
+}
+
+#sidebar .hasChildren i {
+	left: 5px;
+	right: auto;
+}
+
+/*
+Ad Widget
+--------------------------------
+*/
+
+/*
+Recent Comments Widget
+--------------------------------
+*/
+
+#sidebar .widget_recent_comments ul li {
+	padding-right: 28px;
+	padding-left: 0;
+}
+
+#sidebar .widget_recent_comments ul li:before {
+	right: 0;
+	left: auto;
+}
+
+/*
+Tag Widget
+--------------------------------
+*/
+
+#sidebar .widget_tag ul li {
+	margin: 0 0 0.90909090909091em 0.90909090909091em;
+	float: right;
+}
+
+/*
+Post Tabs Widget
+--------------------------------
+*/
+
+.widget_post_tabs .tab-content ul li .recent-post-img,
+.widget_popular_posts ul li .recent-post-img {
+	float: right;
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+/*------------------------------------------------------------
+ Defaul Widgets
+-------------------------------------------------------------- */
+/* Archive List Widget
+-------------------------------------- */
+
+/* Calendar Widget
+-------------------------------------- */
+.widget_calendar {
+	float: right;
+}
+
+#wp-calendar caption {
+	text-align: left;
+}
+
+#wp-calendar tfoot #next {
+	text-align: left;
+}
+
+/* Categories Widget
+-------------------------------------- */
+
+/* Recent Comments Widget
+-------------------------------------- */
+
+/* Recent Entries Widget
+-------------------------------------- */
+
+/* RSS Widget
+-------------------------------------- */
+
+/* Search Widget
+-------------------------------------- */
+
+.widget_search #s {
+	padding-left: 32px;
+	padding-right: 0;
+}
+
+.widget_search #searchsubmit {
+	left: 15px;
+	right: auto;
+}
+
+.widget_search i {
+	left: 15px;
+	right: auto;
+}
+
+/* Tag Cloud Widget
+-------------------------------------- */
+
+/* Nav Menu Widget
+-------------------------------------- */
+
+.widget_nav_menu .menu-navigation-container .sub-menu {
+	padding-right: 20px;
+	padding-left: 0;
+}
+
+/*
+==========================================
+5. Footer
+========================================== 
+*/
+/*
+Footer
+------------------------
+*/
+
+#footer ul,
+footer ol {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+/*
+==========================================
+Social Nav
+========================================== 
+*/
+.nav_social {
+	float: left;
+}
+
+.nav_social li {
+	float: right;
+}
+
+/*
+==========================================
+6. Portfolio
+========================================== 
+*/
+
+.portfolio_item {
+	float: right;
+}
+
+.portfolio_item .ql_border_hover {
+	right: 0;
+	left: 0;
+}
+
+.portfolio_item:hover .ql_border_hover {
+	right: 5px;
+	left: 5px;
+}
+
+.portfolio_item .ql_hover {
+	right: 0;
+	left: 0;
+}
+
+.portfolio_item:hover .ql_hover .ql_info_footer {
+	left: 0;
+	right: auto;
+}
+
+.portfolio_item .ql_hover .ql_info_footer i {
+	margin-left: 0.35714285714286em;
+	margin-right: auto;
+}
+
+/*
+Portfolio Thirds
+------------------------
+*/
+
+/*
+Scrollbar
+------------------------
+*/
+
+.scrollbar .handle .mousearea {
+	right: 0;
+	left: auto;
+}
+
+/*
+Filter
+---------------------------------------*/
+.filter_list {
+	margin-left: 3.84615384615385em;
+	float: right;
+	margin-right: 0.35714285714286em;
+}
+
+.filter_list .filter_title {
+	float: right;
+	margin-left: 1.53846153846154em;
+	margin-right: auto;
+}
+
+.filter_list ul {
+	padding-right: 0;
+	margin-right: 0;
+	float: right;
+	padding-left: 0;
+	margin-left: auto;
+}
+
+.filter_list ul li {
+	margin-left: 1.25em;
+	margin-right: auto;
+}
+
+.filter_list ul li i {
+	margin-left: 0.38461538461538em;
+	margin-right: auto;
+}
+
+/*
+Portfolio Thumbnails
+------------------------
+*/
+.portfolio_thumbnails {
+	left: -57px;
+	right: auto;
+}
+
+.portfolio_thumbnails .portfolio_thumbnail {
+	float: right;
+}
+
+/*
+==========================================
+Single Portfolio
+========================================== 
+*/
+
+.back_portfolio_btn a i {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.ql_single-portfolio_images .ql_caption {
+	text-align: left;
+}
+
+.ql_single-portfolio_images .ql_img_info a {
+	right: 0;
+	left: auto;
+}
+
+.ql_single-portfolio_images .ql_img_meta {
+	text-align: right;
+	right: 0;
+	left: auto;
+}
+
+.ql_single-portfolio_images .ql_img_meta li {
+	margin-left: 15px;
+	background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+	background: -webkit-gradient(linear, right top, left top, color-stop(0%, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0)));
+	background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+	background: -o-linear-gradient(right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+	background: -ms-linear-gradient(right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+	background: linear-gradient(to left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+	padding-right: 50px;
+	padding-left: 0;
+	margin-right: auto;
+}
+
+.ql_single-portfolio_images .ql_img_meta li i {
+	right: 15px;
+	left: auto;
+}
+
+.ql_single-portfolio_images .ql_img_meta li i.ql-icon-iso {
+	right: 10px;
+	left: auto;
+}
+
+.ql_categories {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.ql_categories li i {
+	margin-left: 0.35714285714286em;
+	margin-right: auto;
+}
+
+/*
+Single Portfolio 2
+========================================== 
+*/
+.ql_single-portfolio_content {
+	text-align: left;
+}
+
+/*
+==========================================
+7. Pace (Loading animation)
+========================================== 
+*/
+/* Animation at loading page */
+
+.pace .pace-progress {
+	right: 0;
+	left: auto;
+}
+
+.pace .pace-progress-inner {
+	left: 0px;
+	right: auto;
+}
+
+.pace .pace-activity {
+	left: 15px;
+	border-right-color: #444444;
+	right: auto;
+}
+
+/*
+==========================================
+8. WordPress Default
+========================================== 
+*/
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+	margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+a img.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+a img.alignnone {
+	margin: 5px 0 20px 20px;
+}
+
+a img.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+a img.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.wp-caption.alignnone {
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+
+/*------------------------------------------------------------
+ Defaul Widgets
+-------------------------------------------------------------- */
+/* Archive List Widget
+-------------------------------------- */
+
+/* Calendar Widget
+-------------------------------------- */
+.widget_calendar {
+	float: right;
+}
+
+#wp-calendar caption {
+	text-align: left;
+}
+
+#wp-calendar tfoot #next {
+	text-align: left;
+}
+
+/* Categories Widget
+-------------------------------------- */
+
+/* Recent Comments Widget
+-------------------------------------- */
+
+/* Recent Entries Widget
+-------------------------------------- */
+
+/* RSS Widget
+-------------------------------------- */
+
+/* Search Widget
+-------------------------------------- */
+
+.widget_search #s {
+	padding-left: 32px;
+	padding-right: 0;
+}
+
+.widget_search #searchsubmit {
+	left: 15px;
+	right: auto;
+}
+
+.widget_search i {
+	left: 15px;
+	right: auto;
+}
+
+/* Tag Cloud Widget
+-------------------------------------- */
+
+/* Nav Menu Widget
+-------------------------------------- */
+
+.widget_nav_menu .menu-navigation-container .sub-menu {
+	padding-right: 20px;
+	padding-left: 0;
+}
+
+/* Search Form
+-------------------------------------- */
+
+.widget_search .search-submit {
+	left: 0;
+	right: auto;
+}
+
+.search-form label::before {
+	left: 15px;
+	right: auto;
+}
+
+.widget_search i {
+	left: 12px;
+	right: auto;
+}
+
+/*Post Navigation                                                       */
+/*----------------------------------------------------------------------*/
+
+.post-navigation a {
+	float: right;
+}
+
+.post-navigation .nav-next a {
+	float: left;
+}
+
+.post-navigation .nav-previous a {
+	padding-right: 36px;
+	padding-left: 0;
+}
+
+.post-navigation .nav-next a {
+	padding-left: 36px;
+	padding-right: 0;
+}
+
+.post-navigation .nav-previous a::before {
+	right: 16px;
+	left: auto;
+}
+
+.post-navigation .nav-next a::before {
+	left: 16px;
+	right: auto;
+}
+
+/*Page Links                                                       */
+/*----------------------------------------------------------------------*/
+
+.page-links span {
+	float: right;
+}
+
+/*
+==========================================
+9. External Plugins
+========================================== 
+*/
+/*
+// Contact Form 7
+// ------------------
+*/
+
+.wpcf7 input[type="checkbox"],
+.wpcf7 input[type="radio"] {
+	margin-left: 5px;
+	margin-right: auto;
+}
+
+/*
+==========================================
+10. Global Styles
+========================================== 
+*/
+
+html.menu_open body {
+	padding-right: 275px;
+	padding-left: 0;
+}
+
+.preloader {
+	right: 0;
+	left: auto;
+}
+
+.preloader i {
+	right: 50%;
+	left: auto;
+}
+
+/* Custom button
+-------------------------------------------------- */
+/* Override base .btn styles */
+/* Apply text and background changes to three key states: default, hover, and active (click). */
+
+/* Apply the custom-colored gradients */
+/* Note: you'll need to include all the appropriate gradients for various browsers and standards. */
+.btn-ql > i {
+	right: 44%;
+	left: auto;
+}
+
+/*For special occacions */
+.btn-ql > b.ql_sec_icon {
+	right: 43%;
+	left: auto;
+}
+
+/* Set the hover state */
+/* An easy hover state is just to move the gradient up a small amount. Add other embellishments as you see fit. */
+
+/*
+Show the icon
+*/
+
+/*
+Hide the icon
+*/
+
+/* Custom button
+-------------------------------------------------- */
+/* Override base .btn styles */
+/* Apply text and background changes to three key states: default, hover, and active (click). */
+
+/* Apply the custom-colored gradients */
+/* Note: you'll need to include all the appropriate gradients for various browsers and standards. */
+.btn-ql2 > i {
+	margin-right: 4px;
+	margin-left: auto;
+}
+
+/*Call To Action Button													*/
+/*----------------------------------------------------------------------*/
+
+/*Before & After														*/
+/*----------------------------------------------------------------------*/
+
+/* Section Title														*/
+/*----------------------------------------------------------------------*/
+
+.ql_title:before {
+	right: 0;
+	left: auto;
+}
+
+/* Section Title														*/
+/*----------------------------------------------------------------------*/
+
+.ql_line_full {
+	right: -15px;
+	left: -15px;
+}
+
+/* Scroll to Top Button													*/
+/*----------------------------------------------------------------------*/
+.ql_scroll_top i {
+	margin-right: 10px;
+	margin-left: auto;
+}
+
+/*Hero Colors Classes													*/
+/*----------------------------------------------------------------------*/
+
+/* Hover effect for thumbnails											*/
+/*----------------------------------------------------------------------*/
+
+.ql_thumbnail_hover > span {
+	right: 10px;
+	left: 10px;
+}
+
+.ql_thumbnail_hover > span > i {
+	right: 50%;
+	margin-right: -1.5em;
+	left: auto;
+	margin-left: auto;
+}
+
+/* Scrollbars webkit													*/
+/*----------------------------------------------------------------------*/
+
+/* Font size using REMs													*/
+/*----------------------------------------------------------------------*/
+
+/* Background Check														*/
+/*----------------------------------------------------------------------*/
+
+/* columns of same height styles */
+.container-xs-height {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+@media (min-width: 768px) {
+
+/* columns of same height styles */
+.container-xs-height {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+}
+
+@media (min-width: 992px) {
+
+@media (min-width: 768px) {
+
+/* columns of same height styles */
+.container-xs-height {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+}
+
+}
+
+@media (min-width: 1200px) {
+
+@media (min-width: 992px) {
+
+@media (min-width: 768px) {
+
+/* columns of same height styles */
+.container-xs-height {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+}
+
+}
+
+}
+
+/* Inputs																*/
+/*----------------------------------------------------------------------*/
+
+html.menu_open body {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+/*
+	Header
+	--------------------------------
+	*/
+
+/*
+	WPML
+	--------------------------------
+	*/
+  #lang_sel {
+	left: 0;
+	right: auto;
+}
+
+/*
+	Content
+	--------------------------------
+	*/
+  .post_content {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.metadata ul li {
+	float: right;
+}
+
+/*
+==========================================
+11. Responsive Styles
+========================================== 
+*/
+/*
+	// Extra Small Breakpoint
+	// ------------------
+	*/
+@media (max-width: 767px) {
+
+@media (min-width: 768px) {
+
+/* columns of same height styles */
+.container-xs-height {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+}
+
+@media (min-width: 992px) {
+
+@media (min-width: 768px) {
+
+/* columns of same height styles */
+.container-xs-height {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+}
+
+}
+
+@media (min-width: 1200px) {
+
+@media (min-width: 992px) {
+
+@media (min-width: 768px) {
+
+/* columns of same height styles */
+.container-xs-height {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+}
+
+}
+
+}
+
+/* Inputs																*/
+/*----------------------------------------------------------------------*/
+
+html.menu_open body {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+/*
+	Header
+	--------------------------------
+	*/
+
+/*
+	WPML
+	--------------------------------
+	*/
+  #lang_sel {
+	left: 0;
+	right: auto;
+}
+
+/*
+	Content
+	--------------------------------
+	*/
+  .post_content {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.metadata ul li {
+	float: right;
+}
+
+}
+
+html.menu_open body {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+/*
+	Header
+	--------------------------------
+	*/
+
+/*
+	Content
+	========================================== 
+	*/
+  .metadata ul li {
+	float: right;
+}
+
+/*
+	// Small Breakpoint
+	// ------------------
+	*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+/*
+==========================================
+11. Responsive Styles
+========================================== 
+*/
+/*
+	// Extra Small Breakpoint
+	// ------------------
+	*/
+@media (max-width: 767px) {
+
+@media (min-width: 768px) {
+
+/* columns of same height styles */
+.container-xs-height {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+}
+
+@media (min-width: 992px) {
+
+@media (min-width: 768px) {
+
+/* columns of same height styles */
+.container-xs-height {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+}
+
+}
+
+@media (min-width: 1200px) {
+
+@media (min-width: 992px) {
+
+@media (min-width: 768px) {
+
+/* columns of same height styles */
+.container-xs-height {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+}
+
+}
+
+}
+
+/* Inputs																*/
+/*----------------------------------------------------------------------*/
+
+html.menu_open body {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+/*
+	Header
+	--------------------------------
+	*/
+
+/*
+	WPML
+	--------------------------------
+	*/
+  #lang_sel {
+	left: 0;
+	right: auto;
+}
+
+/*
+	Content
+	--------------------------------
+	*/
+  .post_content {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.metadata ul li {
+	float: right;
+}
+
+}
+
+html.menu_open body {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+/*
+	Header
+	--------------------------------
+	*/
+
+/*
+	Content
+	========================================== 
+	*/
+  .metadata ul li {
+	float: right;
+}
+
+}
+
+/*
+	Header
+	--------------------------------
+	*/
+
+/*
+	Portfolio
+	========================================== 
+	*/
+
+/*
+	Portfolio Horizontal
+	========================================== 
+	*/
+
+/*
+	Single Portfolio
+	========================================== 
+	*/
+  .ql_single-portfolio_content {
+	text-align: right;
+}
+
+/*
+	Single Portfolio 2
+	========================================== 
+	*/
+
+/*
+	// Medium Breakpoint
+	// ------------------
+	*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/*
+	Single Portfolio 2
+	========================================== 
+	*/
+
+}
+
+/*
+	// Extra Larga Breakpoint
+	// ------------------
+	*/
+/*
+==========================================
+LESS Variables and Mixins
+========================================== 
+*/
+
+
+/* Generated by the RTLer - http://wordpress.org/extend/plugins/rtler/ */

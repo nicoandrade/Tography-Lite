@@ -1,0 +1,14 @@
+* 1.0.2 - 27/07/2015
+====================
+- Updated Screenshot
+- Several code updates
+
+
+* 1.0.1 - 25/07/2015
+====================
+- Complete Theme Update
+
+
+* 1.0.0 - 04/07/2015
+====================
+- Released

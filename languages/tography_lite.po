@@ -1,0 +1,331 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tography Lite\n"
+"POT-Creation-Date: 2015-07-27 16:40-0300\n"
+"PO-Revision-Date: 2015-07-27 16:39-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:7
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:9
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:17
+msgid "No Responses"
+msgstr ""
+
+#: comments.php:17
+msgid "One Response"
+msgstr ""
+
+#: comments.php:17
+msgid "% Responses"
+msgstr ""
+
+#: comments.php:41
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:69
+msgid "Comment"
+msgstr ""
+
+#: comments.php:81
+msgid "Name"
+msgstr ""
+
+#: comments.php:90
+msgid "Email"
+msgstr ""
+
+#: comments.php:99
+msgid "Website"
+msgstr ""
+
+#: footer.php:13
+msgid "Powered by "
+msgstr ""
+
+#: footer.php:13
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:13
+msgid "Tography Lite theme designed by "
+msgstr ""
+
+#. Author URI of the plugin/theme
+#: footer.php:13
+msgid "http://www.quemalabs.com/"
+msgstr ""
+
+#: framework/Theme.php:172
+msgid "Navigation Menu"
+msgstr ""
+
+#: framework/Theme.php:173
+msgid "Social"
+msgstr ""
+
+#: framework/functions/custom_comments.php:31
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/functions/custom_comments.php:45
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: framework/functions/custom_comments.php:47
+msgid "(Edit)"
+msgstr ""
+
+#: framework/functions/custom_functions.php:8
+msgid "Read more"
+msgstr ""
+
+#: framework/functions/custom_functions.php:41
+msgid "Post navigation"
+msgstr ""
+
+#: framework/functions/custom_functions.php:148
+msgid "All"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:61
+msgid "Show Tagline"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:75
+msgid "Theme Options"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:82
+msgid "Portfolio Category"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:95
+msgid "Portfolio Amount"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:96
+msgid "Number of portfolio items to display per page."
+msgstr ""
+
+#: framework/functions/theme_customizer.php:110
+msgid "Logo"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:111
+#, php-format
+msgid ""
+"Check out the <a href=\"%s\" target=\"_blank\">PRO version</a> to change "
+"logo."
+msgstr ""
+
+#: framework/functions/theme_customizer.php:121
+msgid "Header Layout"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:122
+#, php-format
+msgid ""
+"Check out the <a href=\"%s\" target=\"_blank\">PRO version</a> to change the "
+"header layout."
+msgstr ""
+
+#: framework/functions/theme_customizer.php:131
+msgid "Create New Portfolio"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:132
+#, php-format
+msgid ""
+"Check out the <a href=\"%s\" target=\"_blank\">PRO version</a> to create "
+"unlimited portfolios."
+msgstr ""
+
+#: framework/functions/theme_customizer.php:141
+msgid "Portfolio Layout"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:142
+#, php-format
+msgid ""
+"Check out the <a href=\"%s\" target=\"_blank\">PRO version</a> to change the "
+"portfolio layout (Thirds, Masonry, Horizontal)."
+msgstr ""
+
+#: framework/functions/theme_customizer.php:185
+msgid "View PRO version"
+msgstr ""
+
+#: framework/widget_areas/widget_areas.php:5
+msgid "Sidebar Widgets"
+msgstr ""
+
+#: framework/widget_areas/widget_areas.php:7
+msgid "These are widgets for the sidebar."
+msgstr ""
+
+#: meta.php:11
+msgid "No Comments"
+msgstr ""
+
+#: meta.php:11
+msgid "1 Comment"
+msgstr ""
+
+#: meta.php:11
+msgid "% Comments"
+msgstr ""
+
+#: options.php:42
+msgid "One"
+msgstr ""
+
+#: options.php:43
+msgid "Two"
+msgstr ""
+
+#: options.php:44
+msgid "Three"
+msgstr ""
+
+#: options.php:45
+msgid "Four"
+msgstr ""
+
+#: options.php:46
+msgid "Five"
+msgstr ""
+
+#: options.php:52
+msgid "French Toast"
+msgstr ""
+
+#: options.php:53
+msgid "Pancake"
+msgstr ""
+
+#: options.php:54
+msgid "Omelette"
+msgstr ""
+
+#: options.php:55
+msgid "Crepe"
+msgstr ""
+
+#: options.php:56
+msgid "Waffle"
+msgstr ""
+
+#: options.php:131
+msgid "General Settings"
+msgstr ""
+
+#: options.php:136
+msgid "Theme Info"
+msgstr ""
+
+#: options.php:173
+msgid "Header"
+msgstr ""
+
+#: options.php:177
+msgid "Custom Logo"
+msgstr ""
+
+#: options.php:178
+msgid ""
+"Upload a logo for your theme, or specify the image address of your online "
+"logo. (http://yoursite.com/logo.png)"
+msgstr ""
+
+#: options.php:183
+msgid "Custom Logo Retina size"
+msgstr ""
+
+#: options.php:184
+msgid "Upload the logo for retina screens. (Same logo, twice the size)"
+msgstr ""
+
+#: options.php:210
+msgid "Footer Text"
+msgstr ""
+
+#: options.php:211
+msgid "Custom HTML and Text that will appear at the bottom of your site."
+msgstr ""
+
+#: options.php:217
+msgid "Designed by Quema Labs"
+msgstr ""
+
+#: options.php:218
+msgid ""
+"If you are happy with the Theme you can give us credit just by adding a "
+"small link."
+msgstr ""
+
+#: options.php:225
+msgid "Footer Social Icons"
+msgstr ""
+
+#: pagination.php:11
+msgid "Previous page"
+msgstr ""
+
+#: pagination.php:12
+msgid "Next page"
+msgstr ""
+
+#: search.php:5
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: templates/content-archive.php:28 templates/content-page.php:16
+#: templates/content.php:30
+msgid "Page"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Tography Lite"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://themes.quemalabs.com/tography-lite/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A beautiful and minimalistic photography WordPress theme. The perfect choice "
+"for photographers who want a simple and attractive site. If you want more "
+"features you should check the full version in http://bit.ly/tography"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Quema Labs"
+msgstr ""
