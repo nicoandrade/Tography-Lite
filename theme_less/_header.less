@@ -304,7 +304,7 @@ Nav Menu
 
 
 /*1st sub level menu*/
-#jqueryslidemenu ul.nav > li > ul{
+#jqueryslidemenu ul.nav > li > ul, #jqueryslidemenu ul.nav > li > ul > li > ul{
 	left: 0;
 	float: none;
 	top: 0;
@@ -322,6 +322,10 @@ Nav Menu
 	padding: 0.5em 1.42857142857143em;
 	font-weight: bold;
 	color: @contrastColor;
+	background-color: transparent;
+}
+#jqueryslidemenu ul.nav > li > ul > li a:focus, #jqueryslidemenu ul.nav > li > ul > li a:active{
+	background-color: transparent;
 }
 #jqueryslidemenu ul.nav > li > ul > li a:hover{
 	background-color: rgba(255,255,255,0.1);

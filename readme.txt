@@ -99,3 +99,7 @@ License: MIT license
 Source: https://github.com/desandro/imagesloaded
 
 [Lato Font](https://www.google.com/fonts/specimen/Lato) by Łukasz Dziedzic - Licensed under the [SIL Open Font License, 1.1](http://scripts.sil.org/OFL).
+
+All images used in the demo site are from Unslpash
+License: https://unsplash.com/license
+Source: https://unsplash.com

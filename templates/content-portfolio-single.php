@@ -9,15 +9,6 @@
         			<hr class="hr-small">
 
         			<div class="entry">
-        				<?php 
-                    	//Remove the original Gallery Shortcode from the content
-                    	function tography_lite_remove_gallery( $content ) {
-							$patron = '/\[(\[?)(gallery)(?![\w-])([^\]\/]*(?:\/(?!\])[^\]\/]*)*?)(?:(\/)\]|\](?:([^\[]*+(?:\[(?!\/\2\])[^\[]*+)*+)\[\/\2\])?)(\]?)/';
-							return preg_replace( $patron, '', $content );
-						}
-						add_filter( 'the_content', 'tography_lite_remove_gallery'); 
-						//------------------------------------------------------<
-                    	?>
         				<?php the_content(); ?>
             			<div class="clearfix"></div>
             		</div><!-- /entry -->

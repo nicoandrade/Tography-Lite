@@ -28,7 +28,7 @@ if ( ! function_exists( 'tography_lite_comment' ) ){
 
       <div class="comment_wrap col-md-10 col-sm-9">
 		        <?php if ($comment->comment_approved == '0') : ?>
-             <em><?php _e('Your comment is awaiting moderation.', "eneaa") ?></em>
+             <em><?php _e('Your comment is awaiting moderation.', 'tography_lite') ?></em>
              <br />
             <?php endif; ?>
             <div class="comment-entry">

@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Tography Lite\n"
-"POT-Creation-Date: 2015-07-27 16:40-0300\n"
-"PO-Revision-Date: 2015-07-27 16:39-0300\n"
+"POT-Creation-Date: 2015-08-13 21:16-0300\n"
+"PO-Revision-Date: 2015-08-13 21:16-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -25,6 +25,10 @@ msgstr ""
 
 #: 404.php:9
 msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: comments.php:5
+msgid "Please do not load this page directly. Thanks!"
 msgstr ""
 
 #: comments.php:8
@@ -72,12 +76,21 @@ msgid "https://wordpress.org/"
 msgstr ""
 
 #: footer.php:13
+msgid "WordPress"
+msgstr ""
+
+#: footer.php:13
 msgid "Tography Lite theme designed by "
 msgstr ""
 
 #. Author URI of the plugin/theme
 #: footer.php:13
 msgid "http://www.quemalabs.com/"
+msgstr ""
+
+#. Author of the plugin/theme
+#: footer.php:13
+msgid "Quema Labs"
 msgstr ""
 
 #: framework/Theme.php:172
@@ -311,6 +324,10 @@ msgstr ""
 msgid "Page"
 msgstr ""
 
+#: templates/content-none.php:3
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr ""
+
 #. Theme Name of the plugin/theme
 msgid "Tography Lite"
 msgstr ""
@@ -324,8 +341,4 @@ msgid ""
 "A beautiful and minimalistic photography WordPress theme. The perfect choice "
 "for photographers who want a simple and attractive site. If you want more "
 "features you should check the full version in http://bit.ly/tography"
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "Quema Labs"
 msgstr ""

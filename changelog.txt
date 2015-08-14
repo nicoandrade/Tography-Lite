@@ -1,3 +1,17 @@
+* 1.0.5 - 13/08/2015
+====================
+- Fixed: Sub menu items
+- Fixed: Video overflow
+- Fixed: PHP errors on search
+- Added: Demo images license
+
+
+
+* 1.0.4 - 09/08/2015
+====================
+- Fixed: JS error in niceScroll plugin
+
+
 * 1.0.3 - 27/07/2015
 ====================
 - Fixed: Post tags

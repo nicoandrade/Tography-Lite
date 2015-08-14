@@ -2,12 +2,12 @@
 Theme Name: Tography Lite
 Theme URI: http://themes.quemalabs.com/tography-lite/
 Description: A beautiful and minimalistic photography WordPress theme. The perfect choice for photographers who want a simple and attractive site. If you want more features you should check the full version in http://bit.ly/tography
-Version: 1.0.3
+Version: 1.0.5
 Author: Quema Labs
 Author URI: http://www.quemalabs.com/
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: featured-images, responsive-layout, two-columns, threaded-comments, custom-menu, light, right-sidebar, sticky-post, translation-ready
+Tags: featured-images, responsive-layout, two-columns, threaded-comments, custom-menu, light, right-sidebar, sticky-post, translation-ready, white, photoblogging
 Text Domain: tography_lite
 */
 /*
@@ -379,7 +379,8 @@ Nav Menu
   background-color: rgba(255, 255, 255, 0.05);
 }
 /*1st sub level menu*/
-#jqueryslidemenu ul.nav > li > ul {
+#jqueryslidemenu ul.nav > li > ul,
+#jqueryslidemenu ul.nav > li > ul > li > ul {
   left: 0;
   float: none;
   top: 0;
@@ -396,6 +397,11 @@ Nav Menu
   padding: 0.5em 1.42857142857143em;
   font-weight: bold;
   color: #ffffff;
+  background-color: transparent;
+}
+#jqueryslidemenu ul.nav > li > ul > li a:focus,
+#jqueryslidemenu ul.nav > li > ul > li a:active {
+  background-color: transparent;
 }
 #jqueryslidemenu ul.nav > li > ul > li a:hover {
   background-color: rgba(255, 255, 255, 0.1);
@@ -2591,6 +2597,9 @@ Single Portfolio
 .portfolio_video {
   width: 100%;
 }
+.ql_single-portfolio_content .gallery {
+  display: none;
+}
 /*
 Single Portfolio 2
 ========================================== 
@@ -2930,9 +2939,8 @@ a img.aligncenter {
   width: 70px;
 }
 .sticky {
-  border-top: 5px solid #c3c3c3;
-  border-bottom: 5px solid #c3c3c3;
-  padding: 30px 0;
+  border: 5px solid #c3c3c3;
+  padding: 30px;
 }
 /*------------------------------------------------------------
  Defaul Widgets
@@ -3344,7 +3352,8 @@ body {
 #wrap {
   position: relative;
 }
-img {
+img,
+iframe {
   max-width: 100%;
   height: auto;
 }

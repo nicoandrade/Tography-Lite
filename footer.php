@@ -10,7 +10,7 @@
                     <footer id="footer">
                         <div class="pull-left">
                             <p>
-                            <?php esc_html_e( 'Powered by ', 'tography_lite' ); ?><a href="<?php echo esc_url( __( 'https://wordpress.org/', 'tography_lite' ) ); ?>">WordPress</a>. <?php esc_html_e( 'Tography Lite theme designed by ', 'tography_lite' ); ?><a rel="nofollow" href="<?php echo esc_url( __( 'http://www.quemalabs.com/', 'tography_lite' ) ); ?>">Quema Labs</a>.
+                            <?php esc_html_e( 'Powered by ', 'tography_lite' ); ?><a href="<?php echo esc_url( __( 'https://wordpress.org/', 'tography_lite' ) ); ?>"><?php esc_html_e( 'WordPress', 'tography_lite' ); ?></a>. <?php esc_html_e( 'Tography Lite theme designed by ', 'tography_lite' ); ?><a rel="nofollow" href="<?php echo esc_url( __( 'http://www.quemalabs.com/', 'tography_lite' ) ); ?>"><?php esc_html_e( 'Quema Labs', 'tography_lite' ); ?></a>.
                             </p>
                             
                                     

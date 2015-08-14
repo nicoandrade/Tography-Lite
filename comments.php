@@ -2,7 +2,7 @@
 	<?php
     
         if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
-            die ('Please do not load this page directly. Thanks!');
+            die( esc_html__( 'Please do not load this page directly. Thanks!', 'tography_lite' ) );
     
         if ( post_password_required() ) { 
             esc_html_e("This post is password protected. Enter the password to view comments.", "tography_lite");
