@@ -1,9 +1,9 @@
 === Tography Lite ===
 
-A beautiful and minimalistic photography WordPress theme. The perfect choice for photographers who want a simple and attractive site. If you want more features you should check the full version in http://bit.ly/tography
+A beautiful and minimalistic photography WordPress theme. The perfect choice for photographers who want a simple and attractive site. If you want more features you should check the full version in http://www.quemalabs.com/theme/tography/
 
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 
 
 == Installation ==
@@ -36,7 +36,7 @@ And, for the last part, be sure to select “Social” for the “Theme Location
 
 * How to get the PRO version of Tography Lite
 The PRO version is called "Tography" and includes tons of more features. You can buy it in Theme Forest at this location:
-http://bit.ly/tography
+http://www.quemalabs.com/theme/tography/
 
 
 = Quick Specs =

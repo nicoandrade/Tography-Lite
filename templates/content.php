@@ -27,7 +27,7 @@
         'after'       => '</div>',
         'link_before' => '<span>',
         'link_after'  => '</span>',
-        'pagelink'    => esc_attr__( 'Page', 'tography_lite' ) . ' %',
+        'pagelink'    => esc_attr__( 'Page', 'tography-lite' ) . ' %',
         'separator'   => '',
     ) );
     ?>

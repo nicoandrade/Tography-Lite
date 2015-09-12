@@ -8,7 +8,7 @@
             $args['category_name'] = $portfolio_category;
         ?>
 		<li class="meta_date"><i class="fa fa-clock-o"></i> <time class="entry-date" datetime="<?php echo esc_attr( get_the_date( 'c' ) ); ?>"><a href="<?php echo esc_url( get_permalink() ); ?>"><?php the_time( 'F j, Y' ); ?></a></time></li>
-		<li class="meta_comments"><i class="fa fa-comment-o"></i> <?php comments_popup_link( esc_attr__( 'No Comments', 'tography_lite' ), esc_attr__( '1 Comment', 'tography_lite' ), esc_attr__('% Comments', 'tography_lite')); ?></li>
+		<li class="meta_comments"><i class="fa fa-comment-o"></i> <?php comments_popup_link( esc_attr__( 'No Comments', 'tography-lite' ), esc_attr__( '1 Comment', 'tography-lite' ), esc_attr__('% Comments', 'tography-lite')); ?></li>
         <li class="meta_author"><i class="fa fa-pencil"></i> <?php the_author() ?></li>
         <?php
         }

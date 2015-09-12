@@ -140,7 +140,7 @@ class tography_lite_Theme {
 		function tography_lite_setup() {
 		//Activate post-image functionality (WP 2.9+)
 
-			load_theme_textdomain( 'tography_lite', get_template_directory() . '/languages' );
+			load_theme_textdomain( 'tography-lite', get_template_directory() . '/languages' );
 
 			//Thumbnails
 			//----------------------------------------------------
@@ -169,8 +169,8 @@ class tography_lite_Theme {
 			//Add Menu Manager---------------------------
 			add_theme_support( 'nav-menus' );
 
-			register_nav_menus( array( 'menu-1' => esc_attr__( 'Navigation Menu' , 'tography_lite' ) ) );
-			register_nav_menus( array( 'social' => esc_attr__( 'Social' , 'tography_lite' ) ) );
+			register_nav_menus( array( 'menu-1' => esc_attr__( 'Navigation Menu' , 'tography-lite' ) ) );
+			register_nav_menus( array( 'social' => esc_attr__( 'Social' , 'tography-lite' ) ) );
 
 			//HTML5 support
 			add_theme_support( 'html5', array(

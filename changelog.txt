@@ -1,3 +1,18 @@
+* 1.0.11 - 11/09/2015
+====================
+- Changed: A few lenguage text domains
+
+
+* 1.0.10 - 11/09/2015
+====================
+- Changed: to license GPLv3
+
+
+* 1.0.9 - 11/09/2015
+====================
+- Changed: Lenguage text domain
+
+
 * 1.0.8 - 17/08/2015
 ====================
 - Changed: Theme URL

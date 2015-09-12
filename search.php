@@ -2,7 +2,7 @@
 
     <?php get_template_part( "/templates/beforeloop", "search" ) ?> 
 
-        <h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'tography_lite' ), get_search_query() ); ?></h1>
+        <h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'tography-lite' ), get_search_query() ); ?></h1>
 
             <?php if (have_posts()) : ?>
 

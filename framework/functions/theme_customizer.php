@@ -58,7 +58,7 @@ function tography_lite_quemalabs_options_register( $wp_customize ) {
         'sanitize_callback' => 'tography_lite_checkbox'
 	) );
 	$wp_customize->add_control( 'show_desc', array(
-		'label' => esc_attr__( 'Show Tagline', 'tography_lite' ),
+		'label' => esc_attr__( 'Show Tagline', 'tography-lite' ),
 		'section' => 'title_tagline',
 		'settings' => 'show_desc',
 		'type' => 'checkbox' 
@@ -72,14 +72,14 @@ function tography_lite_quemalabs_options_register( $wp_customize ) {
     =====================================================
     */
     $wp_customize->add_section( 'theme_options', array(
-         'title'    => esc_attr__( 'Theme Options', 'tography_lite' ),
+         'title'    => esc_attr__( 'Theme Options', 'tography-lite' ),
          'priority' => 130,
     ) );
     $wp_customize->add_setting( 'portfolio_category', array(
         'sanitize_callback' => 'tography_lite_sanitize_categories'
     ) );
     $wp_customize->add_control( 'portfolio_category', array(
-            'label'    => esc_attr__( 'Portfolio Category', 'tography_lite' ),
+            'label'    => esc_attr__( 'Portfolio Category', 'tography-lite' ),
             'section'  => 'theme_options',
             'settings' => 'portfolio_category',
             'type'     => 'select',
@@ -92,8 +92,8 @@ function tography_lite_quemalabs_options_register( $wp_customize ) {
         'sanitize_callback' => 'tography_lite_sanitize_integer'
     ) );
     $wp_customize->add_control( 'portfolio_amount', array(
-            'label'    => esc_attr__( 'Portfolio Amount', 'tography_lite' ),
-            'description' => esc_attr__( 'Number of portfolio items to display per page.', 'tography_lite' ),
+            'label'    => esc_attr__( 'Portfolio Amount', 'tography-lite' ),
+            'description' => esc_attr__( 'Number of portfolio items to display per page.', 'tography-lite' ),
             'section'  => 'theme_options',
             'settings' => 'portfolio_amount'
         )
@@ -107,8 +107,8 @@ function tography_lite_quemalabs_options_register( $wp_customize ) {
     ===================================================== */
     $section_args = array(
     	'wp_customize' => $wp_customize,
-    	'title' => esc_html__( 'Logo', 'tography_lite' ),
-    	'label' => sprintf( __( 'Check out the <a href="%s" target="_blank">PRO version</a> to change logo.', 'tography_lite' ), esc_url( 'http://bit.ly/tography' ) ),
+    	'title' => esc_html__( 'Logo', 'tography-lite' ),
+    	'label' => sprintf( __( 'Check out the <a href="%s" target="_blank">PRO version</a> to change logo.', 'tography-lite' ), esc_url( 'http://www.quemalabs.com/theme/tography/?utm_source=Tography%20Lite%20Theme&utm_medium=Pro%20Button&utm_campaign=Tography' ) ),
     	'priority' => 100
     );
     tography_lite_pro_btns( $section_args );
@@ -118,8 +118,8 @@ function tography_lite_quemalabs_options_register( $wp_customize ) {
     ===================================================== */
     $section_args = array(
     	'wp_customize' => $wp_customize,
-    	'title' => esc_html__( 'Header Layout', 'tography_lite' ),
-    	'label' => sprintf( __( 'Check out the <a href="%s" target="_blank">PRO version</a> to change the header layout.', 'tography_lite' ), esc_url( 'http://bit.ly/tography' ) ),
+    	'title' => esc_html__( 'Header Layout', 'tography-lite' ),
+    	'label' => sprintf( __( 'Check out the <a href="%s" target="_blank">PRO version</a> to change the header layout.', 'tography-lite' ), esc_url( 'http://www.quemalabs.com/theme/tography/?utm_source=Tography%20Lite%20Theme&utm_medium=Pro%20Button&utm_campaign=Tography' ) ),
     );
     tography_lite_pro_btns( $section_args );
 
@@ -128,8 +128,8 @@ function tography_lite_quemalabs_options_register( $wp_customize ) {
     ===================================================== */
     $section_args = array(
     	'wp_customize' => $wp_customize,
-    	'title' => esc_html__( 'Create New Portfolio', 'tography_lite' ),
-    	'label' => sprintf( __( 'Check out the <a href="%s" target="_blank">PRO version</a> to create unlimited portfolios.', 'tography_lite' ), esc_url( 'http://bit.ly/tography' ) ),
+    	'title' => esc_html__( 'Create New Portfolio', 'tography-lite' ),
+    	'label' => sprintf( __( 'Check out the <a href="%s" target="_blank">PRO version</a> to create unlimited portfolios.', 'tography-lite' ), esc_url( 'http://www.quemalabs.com/theme/tography/?utm_source=Tography%20Lite%20Theme&utm_medium=Pro%20Button&utm_campaign=Tography' ) ),
     );
     tography_lite_pro_btns( $section_args );
 
@@ -138,8 +138,8 @@ function tography_lite_quemalabs_options_register( $wp_customize ) {
     ===================================================== */
     $section_args = array(
     	'wp_customize' => $wp_customize,
-    	'title' => esc_html__( 'Portfolio Layout', 'tography_lite' ),
-    	'label' => sprintf( __( 'Check out the <a href="%s" target="_blank">PRO version</a> to change the portfolio layout (Thirds, Masonry, Horizontal).', 'tography_lite' ), esc_url( 'http://bit.ly/tography' ) ),
+    	'title' => esc_html__( 'Portfolio Layout', 'tography-lite' ),
+    	'label' => sprintf( __( 'Check out the <a href="%s" target="_blank">PRO version</a> to change the portfolio layout (Thirds, Masonry, Horizontal).', 'tography-lite' ), esc_url( 'http://www.quemalabs.com/theme/tography/?utm_source=Tography%20Lite%20Theme&utm_medium=Pro%20Button&utm_campaign=Tography' ) ),
     );
     tography_lite_pro_btns( $section_args );
 
@@ -182,7 +182,7 @@ if ( ! function_exists( 'tography_lite_customizer_controls' ) ){
 		wp_enqueue_script( 'tography_lite_customizer_top_buttons' );
 
 		wp_localize_script( 'tography_lite_customizer_top_buttons', 'topbtns', array(
-			'pro' => esc_html__( 'View PRO version', 'tography_lite' )
+			'pro' => esc_html__( 'View PRO version', 'tography-lite' )
 		) );
 	}
 }//end if function_exists

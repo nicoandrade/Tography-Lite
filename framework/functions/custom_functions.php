@@ -5,7 +5,7 @@
 if ( ! function_exists( 'tography_lite_new_content_more' ) ){
 	function tography_lite_new_content_more($more) {
 	       global $post;
-	       return ' <br><a href="' . esc_url( get_permalink() ) . '" class="more-link btn btn-ql">'.__('Read more', 'tography_lite').'</a>';
+	       return ' <br><a href="' . esc_url( get_permalink() ) . '" class="more-link btn btn-ql">'.__('Read more', 'tography-lite').'</a>';
 	}   
 }// end function_exists
 	add_filter( 'the_content_more_link', 'tography_lite_new_content_more' );
@@ -38,7 +38,7 @@ function the_post_navigation() {
 	}
 	?>
 	<nav class="navigation post-navigation" role="navigation">
-		<h2 class="screen-reader-text"><?php esc_html_e( 'Post navigation', 'tography_lite' ); ?></h2>
+		<h2 class="screen-reader-text"><?php esc_html_e( 'Post navigation', 'tography-lite' ); ?></h2>
 		<div class="nav-links">
 			<?php
 			previous_post_link( '<div class="nav-previous">%link</div>', '%title' );
@@ -145,7 +145,7 @@ function tography_lite_portfolio_filters( $the_query ) {
 		?>
 		<div class="ql_filter filter_list">                
 			<ul>
-			<li class="active"><a href="#" data-filter="*" ><?php esc_html_e( 'All', 'tography_lite' ); ?><span></span></a></li>
+			<li class="active"><a href="#" data-filter="*" ><?php esc_html_e( 'All', 'tography-lite' ); ?><span></span></a></li>
 			<?php
 				foreach($post_categories as $cat){
 					?>

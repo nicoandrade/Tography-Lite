@@ -8,8 +8,8 @@ if ( isset( $the_query ) ) {
 	$wp_query = $the_query;
 }
 $pagination = get_the_posts_pagination( array(
-    'prev_text'          => esc_attr__( 'Previous page', 'tography_lite' ),
-	'next_text'          => esc_attr__( 'Next page', 'tography_lite' )
+    'prev_text'          => esc_attr__( 'Previous page', 'tography-lite' ),
+	'next_text'          => esc_attr__( 'Next page', 'tography-lite' )
 ) );
 if ($pagination) {
 	echo '<div class="pagination_wrap">';

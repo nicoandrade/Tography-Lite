@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Tography Lite\n"
-"POT-Creation-Date: 2015-08-13 21:16-0300\n"
-"PO-Revision-Date: 2015-08-13 21:16-0300\n"
+"POT-Creation-Date: 2015-09-11 15:12-0300\n"
+"PO-Revision-Date: 2015-09-11 15:12-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -214,98 +214,6 @@ msgstr ""
 msgid "% Comments"
 msgstr ""
 
-#: options.php:42
-msgid "One"
-msgstr ""
-
-#: options.php:43
-msgid "Two"
-msgstr ""
-
-#: options.php:44
-msgid "Three"
-msgstr ""
-
-#: options.php:45
-msgid "Four"
-msgstr ""
-
-#: options.php:46
-msgid "Five"
-msgstr ""
-
-#: options.php:52
-msgid "French Toast"
-msgstr ""
-
-#: options.php:53
-msgid "Pancake"
-msgstr ""
-
-#: options.php:54
-msgid "Omelette"
-msgstr ""
-
-#: options.php:55
-msgid "Crepe"
-msgstr ""
-
-#: options.php:56
-msgid "Waffle"
-msgstr ""
-
-#: options.php:131
-msgid "General Settings"
-msgstr ""
-
-#: options.php:136
-msgid "Theme Info"
-msgstr ""
-
-#: options.php:173
-msgid "Header"
-msgstr ""
-
-#: options.php:177
-msgid "Custom Logo"
-msgstr ""
-
-#: options.php:178
-msgid ""
-"Upload a logo for your theme, or specify the image address of your online "
-"logo. (http://yoursite.com/logo.png)"
-msgstr ""
-
-#: options.php:183
-msgid "Custom Logo Retina size"
-msgstr ""
-
-#: options.php:184
-msgid "Upload the logo for retina screens. (Same logo, twice the size)"
-msgstr ""
-
-#: options.php:210
-msgid "Footer Text"
-msgstr ""
-
-#: options.php:211
-msgid "Custom HTML and Text that will appear at the bottom of your site."
-msgstr ""
-
-#: options.php:217
-msgid "Designed by Quema Labs"
-msgstr ""
-
-#: options.php:218
-msgid ""
-"If you are happy with the Theme you can give us credit just by adding a "
-"small link."
-msgstr ""
-
-#: options.php:225
-msgid "Footer Social Icons"
-msgstr ""
-
 #: pagination.php:11
 msgid "Previous page"
 msgstr ""
@@ -333,12 +241,13 @@ msgid "Tography Lite"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "http://themes.quemalabs.com/tography-lite/"
+msgid "http://www.quemalabs.com/portfolio/tography-lite/"
 msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
 "A beautiful and minimalistic photography WordPress theme. The perfect choice "
 "for photographers who want a simple and attractive site. If you want more "
-"features you should check the full version in http://bit.ly/tography"
+"features you should check the full version in http://www.quemalabs.com/theme/"
+"tography/"
 msgstr ""
