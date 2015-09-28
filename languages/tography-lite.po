@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Tography Lite\n"
-"POT-Creation-Date: 2015-09-11 15:12-0300\n"
-"PO-Revision-Date: 2015-09-11 15:12-0300\n"
+"POT-Creation-Date: 2015-09-12 14:04-0300\n"
+"PO-Revision-Date: 2015-09-12 14:04-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -194,6 +194,10 @@ msgstr ""
 msgid "View PRO version"
 msgstr ""
 
+#: framework/functions/theme_customizer.php:186
+msgid "Documentation"
+msgstr ""
+
 #: framework/widget_areas/widget_areas.php:5
 msgid "Sidebar Widgets"
 msgstr ""
@@ -241,7 +245,7 @@ msgid "Tography Lite"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "http://www.quemalabs.com/portfolio/tography-lite/"
+msgid "http://www.quemalabs.com/theme/tography-lite/"
 msgstr ""
 
 #. Description of the plugin/theme

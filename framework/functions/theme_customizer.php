@@ -182,7 +182,8 @@ if ( ! function_exists( 'tography_lite_customizer_controls' ) ){
 		wp_enqueue_script( 'tography_lite_customizer_top_buttons' );
 
 		wp_localize_script( 'tography_lite_customizer_top_buttons', 'topbtns', array(
-			'pro' => esc_html__( 'View PRO version', 'tography-lite' )
+			'pro' => esc_html__( 'View PRO version', 'tography-lite' ),
+            'documentation' => esc_html__( 'Documentation', 'tography-lite' )
 		) );
 	}
 }//end if function_exists
