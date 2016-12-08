@@ -1,3 +1,9 @@
+* 1.0.13 - 08/12/2016
+====================
+- Improved: Layout for categories on portfolio items
+- Improved: Tags in theme description
+- Fixed: Scroll disabled on mobile for portfolio items
+
 * 1.0.12 - 12/09/2015
 ====================
 - Added: Link to Documentation

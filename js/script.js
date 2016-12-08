@@ -33,7 +33,7 @@ if (document.documentElement) {
 			});
 
 			//Scroll for Header items
-			$(".nav_sidebar_wrap, .ql_single-portfolio_content").niceScroll({
+			$(".nav_sidebar_wrap").niceScroll({
 				touchbehavior: true,
 				cursoropacitymax: 0.2,
 				bouncescroll: true,

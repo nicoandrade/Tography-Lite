@@ -141,6 +141,5 @@
 			};
 
 
-
 	});//document ready
 })(jQuery);
