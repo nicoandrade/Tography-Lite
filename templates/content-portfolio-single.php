@@ -120,7 +120,7 @@
 		}
 		
 
-		if ( count( $array_id ) > 1 ) {
+		if ( count( $array_id ) > 0 ) {
 			foreach ( $array_id as $image_id ) {
 
 				    $image_data = wp_get_attachment_metadata( $image_id );

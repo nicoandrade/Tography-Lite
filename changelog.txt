@@ -1,3 +1,8 @@
+* 1.0.14 - 27/08/2018
+====================
+- Fixed: Portfolio gallery when there is only one image
+
+
 * 1.0.13 - 08/12/2016
 ====================
 - Improved: Layout for categories on portfolio items
